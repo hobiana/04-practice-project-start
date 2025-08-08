@@ -10,7 +10,7 @@ jobs:
         run: npm ci
       - name: Run linter
         run: npm run lint
-  tests:
+  test:
     needs: lint
     runs-on: ubuntu-latest
     steps:
